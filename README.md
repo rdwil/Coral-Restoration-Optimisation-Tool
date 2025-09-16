@@ -60,7 +60,8 @@ Optional: defaults are provided.
 ### 🌐 Simulated Reef Layout
 
 #### What it is: 
-- A simple visualisation of how “reef stars” (clusters of ~14 fragments) might be distributed across a restoration site. Includes clustering weights to mimic natural grouping.
+- A simple visualisation of how “reef stars” (clusters of ~14 fragments) might be distributed across a restoration site.
+- Includes clustering weights to encourage fusion growth.
 #### User input:
 - Clustering weights for each growth form (0–1).
 - Shuffle button to randomise layout.
