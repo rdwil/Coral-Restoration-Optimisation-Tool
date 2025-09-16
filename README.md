@@ -1,6 +1,13 @@
 # 🪸 Coral Restoration Optimisation Tool
 
-A Streamlit-based decision support tool that allocates available coral fragments across families to optimise ecological function and assess restoration benchmarks.  
+A linear optimisation support tool that illustrates how data-driven methods can guide complex resource allocation problems. Applied here to coral restoration projects to balance ecological function and diversity with operational constraints.
+
+### 📖 Background
+Coral restoration is often measured by the number of corals planted, but many projects fail in the long term because they overlook ecological function and diversity. Different restoration goals demand different coral communities, a reef rebuilt to protect shorelines requires a different species mix than one focused on boosting fish stocks or eco-tourism.
+Often projects default to branching _Acroporidae_ because it grows quickly and shows visible results, especially in tourist regions. However monocultures lack resilience: just as single-crop agriculture collapses under pests or disease, single-family coral plantings are highly vulnerable to bleaching and storms. Evidence from marine and terrestrial systems shows that diverse, functionally complementary communities are far more resilient. 
+
+This tool aims to explore providing restoration teams with a practical starting point for planning growth form and ideally species/family composition, aligning ecological science with operational planning. Building on insights such as Madin et al. (2023), which identified functionally optimal coral species and grouping them by growth form, the model translates these principles into actionable allocations of reef stars, fragments, and labour. The aim is not only to scale restoration, but to ensure projects restore functionally resilient reef ecosystems rather than short-lived monocultures.
+
 
 ## 🚶 Walkthrough of the App
 
