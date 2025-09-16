@@ -2,6 +2,12 @@
 
 A linear optimisation support tool that illustrates how data-driven methods can guide complex resource allocation problems. Applied here to coral restoration projects to balance ecological function and diversity with operational constraints.
 
+## Try the App
+
+You can run the optimisation tool directly in your browser on **Streamlit Cloud**:  
+
+👉 [Launch the Coral Restoration Optimisation Tool](https://coral-restoration-optimisation-tool.streamlit.app)
+
 ### 📖 Background
 Coral restoration is often measured by the number of corals planted, but many projects fail in the long term because they overlook ecological function and diversity. Different restoration goals demand different coral communities, a reef rebuilt to protect shorelines requires a different species mix than one focused on boosting fish stocks or eco-tourism.
 Often projects default to branching _Acroporidae_ because it grows quickly and shows visible results, especially in tourist regions. However monocultures lack resilience: just as single-crop agriculture collapses under pests or disease, single-family coral plantings are highly vulnerable to bleaching and storms. Evidence from marine and terrestrial systems shows that diverse, functionally complementary communities are far more resilient. 
