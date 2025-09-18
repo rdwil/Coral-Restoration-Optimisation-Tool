@@ -27,8 +27,8 @@ Advanced settings to control the optimisation.
 Optional: defaults are provided.
 - Normalise proportions: Ensures proportions sum to 1 (recommended).
 - Proportion tolerance: Allows minor deviations from exact targets to account for whole fragments.
-- Survival rate: Assumed % of fragments surviving to reproductive maturity (default 60%, based on peer-reviewed syntheses).
-- Use ecological function weightings: If enabled, the optimiser maximises a weighted ecological score (allocation × growth form score) instead of just total fragments.
+- Survival rate: Assumed % of fragments surviving to reproductive maturity (default 60%, based on peer-reviewed publications).
+- Use ecological function weightings: The optimiser maximises a weighted ecological score (allocation × growth form score) instead of just total fragments.
 --- 
 ### 🪸 Available Fragments per Growth Form
 
