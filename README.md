@@ -42,7 +42,7 @@ Optional: defaults are provided.
 #### What it is: 
 - Target proportions for each growth form. Defaults are derived from Madin et al. (2023) by filtering their recommended species for the Indian Ocean and grouping into growth forms.
 #### User input:
-- Optional; adjust if you have different restoration goals or local ecological knowledge.
+- Optional, adjust if you have different restoration goals or local ecological knowledge.
 ---
 ### ⚖️ Optimal Allocation (Linear Programming)
 
