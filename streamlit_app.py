@@ -92,6 +92,14 @@ for i, gf in enumerate(default_props.keys()):
             st.text("")  # keep layout aligned (empty col)
             supply[gf] = 0
 
+# 👉 Guard checks after inputs
+if sum(supply.values()) == 0:
+    st.info("ℹ️ Please enter the number of coral fragments available above to begin optimisation.")
+    st.stop()
+
+if any(supply[gf] == 0 for gf in enabled_groups):
+    st.error("❌ At least one enabled growth form has 0 available fragments. Please adjust its value or untick it.")
+    st.stop()
 
 ## Growth form proportions input
 st.subheader("Coral Growth Form Proportions")
@@ -381,5 +389,3 @@ else:
         f"Survival assumption: ~{int(survival_rate*100)}% one-year survival commonly reported across restoration studies "
         "(e.g., Boström-Einarsson et al., 2020; Hein et al., 2020)."
     )
-
-    
