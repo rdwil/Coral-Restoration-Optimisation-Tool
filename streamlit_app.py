@@ -386,6 +386,6 @@ else:
 
     st.caption(
         "Benchmark: 13–50 colonies / 100 m² for ≥10% fertilisation success (Ricardo et al., 2025). "
-        f"Survival assumption: ~{int(survival_rate*100)}% one-year survival commonly reported across restoration studies "
-        "(e.g., Boström-Einarsson et al., 2020; Hein et al., 2020)."
+        f"Survival assumption: ~{int(survival_rate*100)}% one-year survival reported across restoration studies "
+        "(Boström-Einarsson et al., 2020)."
     )
